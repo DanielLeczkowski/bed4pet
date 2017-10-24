@@ -1,4 +1,6 @@
- *{
+ @import url("logo.css");
+
+*{
     margin: 0;
     padding: 0;
 }
@@ -17,7 +19,15 @@ html {
 
 #header {
     background-color: #7c4c1d;
-    padding: 20px 60px;
+    width: 20vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
 }
 
 #logo {
@@ -32,13 +42,6 @@ html {
     margin-right: -20px;
 }
 
-#header nav a {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-}
 
 #footer {
     background-color: #c7bca8;

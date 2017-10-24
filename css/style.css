@@ -24,7 +24,7 @@ html {
     font-weight: 700;
     color: #fff;
     margin: 0;
-    font-size: 34px;
+    font-size: 50px;
 }
 
 #header nav {
@@ -48,6 +48,10 @@ html {
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 section.image {
     height: 100%;
     background-repeat: no-repeat;
@@ -61,6 +65,7 @@ section.text {
     padding: 20px;
     padding: 20px 0;
     position: relative;
+    min-height: 50%;
 }
 
 section.text .icon {
@@ -91,6 +96,7 @@ section.text .icon .fa {
 section.text.left .content {
     margin-left: 0;
     margin-right: 50%;
+    
 }
 
 section.text h2 {

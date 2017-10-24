@@ -146,3 +146,13 @@ section.text h2 {
     width: 150%;
     height: 9vh;
 }
+
+.dropdown{
+    width: 50%;
+    margin-right: 5px;
+}
+
+.dropdown button{
+    width: 100%;
+    color: #fff;
+}
